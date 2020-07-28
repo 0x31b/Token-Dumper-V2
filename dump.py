@@ -9,7 +9,7 @@ except ImportError:
     print ('[-] you need to install requests Module')
     exit()
 try:
-    import requests
+    from colorama import Fore
 except ImportError:
     print ('[*] pip install colorama')
     print ('[-] you need to install requests Module')
